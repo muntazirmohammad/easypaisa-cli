@@ -1,9 +1,10 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let myBalance = 10000;
 let myNumber = "03312345678";
 let myPin = 1974;
-console.log(chalk.rgb(0, 255, 0)(`Welcome to Muntazir Mohammad - EasyPaisa Clone`));
+console.log(chalk.rgb(0, 255, 0)(`Welcome to Muntazir Mohammad - EasyPaisa Clone CLI`));
 console.log(chalk.yellow.bold(`The Phone number is ${myNumber}`));
 console.log(chalk.yellow.bold(`The Pin is ${myPin}`));
 let number = await inquirer.prompt([
