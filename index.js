@@ -87,7 +87,7 @@ if (number.numberAnswer === myNumber && pin.pinAnswer === myPin) {
             ]);
             if (bankAmount.bankAmountAns <= myBalance) {
                 myBalance -= bankAmount.bankAmountAns;
-                console.log(chalk.yellow.bold(`You successfully transferred ${bankAmount.bankAmountAns} to the account Number: ${receiverAccountNumber.receiverAccountNumberAns} of ${receiverBank.receiverBankAns}`));
+                console.log(chalk.yellow.bold(`You successfully transferred ${bankAmount.bankAmountAns} to the account Number: ${receiverAccountNumber.receiverAccountNumberAns} of ${receiverBank.receiverBankAns}, Remaining Balance is ${myBalance}`));
             }
             else {
                 console.log(chalk.red.bold(`Your transaction was unsuccessful, Insufficient Balance!`));

@@ -1,6 +1,6 @@
 {
   "name": "easypaisa-clone-muntazir",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An esaypaisa clone made by using Typescript.",
   "main": "index.js",
   "type": "module",
